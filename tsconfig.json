@@ -1,0 +1,23 @@
+{
+    "include": ["**/*.ts"],
+    "compilerOptions": {
+        // Runtime options
+        "lib": ["ES2021"],
+        "target": "ES2021",
+        
+        // Module & module resolution configuration
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        //"isolatedModules": true,
+        "esModuleInterop": true,
+
+        // Transpile time type checks
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+
+        // other stuff
+        "removeComments": true,
+    }
+}
